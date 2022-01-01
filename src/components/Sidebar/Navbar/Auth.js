@@ -38,7 +38,7 @@ const Auth = () => {
                   className={`${active && "bg-blue-500"}`}
                   href="/account-settings"
                 >
-                  Account
+                  Profile
                 </a>
               )}
             </Menu.Item>
@@ -48,7 +48,7 @@ const Auth = () => {
                   className={`${active && "bg-blue-500"}`}
                   href="/account-settings"
                 >
-                  Account
+                  Log out
                 </a>
               )}
             </Menu.Item>

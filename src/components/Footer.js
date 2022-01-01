@@ -1,7 +1,7 @@
 import React from "react";
 
 const Footer = () => {
-  return <div className="h-28">Footer</div>;
+  return <div className="max-h-90px">Footer</div>;
 };
 
 export default Footer;

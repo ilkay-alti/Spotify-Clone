@@ -2,7 +2,7 @@ import React from "react";
 
 const PlayList = () => {
   return (
-    <nav className="mx-6 py-[8px] max-h-[455px]  flex-auto overflow-y-scroll border-t-[1px] border-opacity-20">
+    <nav className="mx-6 py-[8px]  h-[455px]  flex-auto overflow-y-scroll border-t-[1px] border-opacity-20">
       <ul>
         {new Array(30).fill(
           <li>
