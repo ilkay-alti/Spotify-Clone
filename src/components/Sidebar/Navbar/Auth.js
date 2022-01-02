@@ -15,7 +15,10 @@ const Auth = () => {
               <div className="w-[28px] h-[28px]  bg-link opacity-70 justify-center flex rounded-full">
                 <img src={User} alt="a" className="w-[16px] " />
               </div>
-              Username
+              <div className="text-[#fff] opacity-100 font-bold ">
+                {" "}
+                Username
+              </div>
               <div className={open === true && "rotate-180"}>
                 <img src={Down} alt="a" className="w-[16px] " />
               </div>

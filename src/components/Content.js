@@ -7,6 +7,10 @@ import Episodes from "../views/Episodes";
 import LikedSong from "../views/LikedSong";
 import Navbar from "./Navbar";
 import { Routes, Route } from "react-router-dom";
+import Playlist from "../views/Playlist";
+import Podcasts from "../views/Podcasts";
+import Artist from "../views/Artist";
+import Albums from "../views/Albums";
 
 const Content = () => {
   return (
@@ -22,6 +26,11 @@ const Content = () => {
             <Route path="/createplaylist" element={<CreatePlayList />} />
             <Route path="/likedsong" element={<LikedSong />} />
             <Route path="/episodes" element={<Episodes />} />
+            <Route path="/playlist" element={<Playlist />} />
+            <Route path="/podcasts" element={<Podcasts />} />
+
+            <Route path="/artist" element={<Artist />} />
+            <Route path="/albums" element={<Albums />} />
           </Routes>
         </div>
       </div>

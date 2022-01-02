@@ -3,7 +3,7 @@ import Auth from "./Sidebar/Navbar/Auth";
 import Navigates from "./Sidebar/Navbar/Navigates";
 import { Routes, Route } from "react-router-dom";
 import Search from "./Sidebar/Navbar/Search";
-import Library from "./Sidebar/Navbar/Library";
+import Library from "./Sidebar/Navbar/LibraryTop";
 
 const Navbar = () => {
   return (
@@ -12,6 +12,10 @@ const Navbar = () => {
       <Routes>
         <Route path="/search" element={<Search />} />
         <Route path="/library" element={<Library />} />
+        <Route path="/playlist" element={<Library />} />
+        <Route path="/podcasts" element={<Library />} />
+        <Route path="/artist" element={<Library />} />
+        <Route path="/albums" element={<Library />} />
       </Routes>
       <Auth />
     </div>

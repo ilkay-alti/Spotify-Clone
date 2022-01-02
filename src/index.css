@@ -17,5 +17,9 @@
   @apply bg-active  fill-red-800;
 }
 .active {
-  @apply text-white opacity-100;
+  @apply text-white opacity-100 bg-[#333];
+}
+.Search {
+  background-position: 15px 50%;
+  background-image: url(../src/icon/Search.svg);
 }
