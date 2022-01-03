@@ -1,6 +1,6 @@
 import React from "react";
-import Back from "../../../icon/Back.svg";
-import Next from "../../../icon/Next.svg";
+import Back from "../../icon/Back.svg";
+import Next from "../../icon/Next.svg";
 import { useNavigate } from "react-router";
 const Navigation = () => {
   //! Navigate -1 +1
@@ -16,7 +16,7 @@ const Navigation = () => {
         </button>
         <button
           onClick={() => navigate(1)}
-          className="bg-black rounded-full h-[32px] w-[32px]  bg-opacity-40 "
+          className="bg-black rounded-full h-[32px] w-[32px]  bg-opacity-40 mr-[16px]"
         >
           <img src={Next} alt="a" className="w-[25px] m-auto" />
         </button>

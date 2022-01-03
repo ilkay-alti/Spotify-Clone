@@ -1,6 +1,6 @@
 import { Menu } from "@headlessui/react";
-import User from "../../../icon/User.svg";
-import Down from "../../../icon/Down.svg";
+import User from "../../icon/User.svg";
+import Down from "../../icon/Down.svg";
 
 const Auth = () => {
   //? Tailwind ui

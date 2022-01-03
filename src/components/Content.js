@@ -26,11 +26,11 @@ const Content = () => {
             <Route path="/createplaylist" element={<CreatePlayList />} />
             <Route path="/likedsong" element={<LikedSong />} />
             <Route path="/episodes" element={<Episodes />} />
-            <Route path="/playlist" element={<Playlist />} />
-            <Route path="/podcasts" element={<Podcasts />} />
+            <Route path="/library/playlist" element={<Playlist />} />
+            <Route path="/library/podcasts" element={<Podcasts />} />
 
-            <Route path="/artist" element={<Artist />} />
-            <Route path="/albums" element={<Albums />} />
+            <Route path="/library/artist" element={<Artist />} />
+            <Route path="/library/albums" element={<Albums />} />
           </Routes>
         </div>
       </div>
