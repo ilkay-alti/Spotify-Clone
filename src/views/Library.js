@@ -1,7 +1,7 @@
 import React from "react";
 
 const Library = () => {
-  return <div>Library</div>;
+  return <div>Playlisttt</div>;
 };
 
 export default Library;

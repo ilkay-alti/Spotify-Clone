@@ -32,7 +32,7 @@ const Main = () => {
           </li>
           <li>
             <NavLink
-              to={"/library"}
+              to={"library"}
               className="gap-x-[16px] flex items-center  h-[40px] px-[16px] rounded-md    hover:text-white"
             >
               <span>
