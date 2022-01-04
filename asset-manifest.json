@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Spotify-Clone/static/css/main.a5b2656d.css",
+    "main.js": "/Spotify-Clone/static/js/main.8de43bd8.js",
+    "static/media/Logo.svg": "/Spotify-Clone/static/media/Logo.adbc1a0ec05105a572184c41bbba8dd9.svg",
+    "static/media/Episode.svg": "/Spotify-Clone/static/media/Episode.d56dd1c2c0f46fb02c8e82af40ee61f6.svg",
+    "static/media/User.svg": "/Spotify-Clone/static/media/User.34e855e34ec36fb56ca1c1b8cef5ed56.svg",
+    "index.html": "/Spotify-Clone/index.html",
+    "static/media/Heart.svg": "/Spotify-Clone/static/media/Heart.53d18e66cff9a8e4385765b457bccd51.svg",
+    "static/media/Download.svg": "/Spotify-Clone/static/media/Download.e421c21453280378642877ac3eeb6891.svg",
+    "static/media/Search.svg": "/Spotify-Clone/static/media/Search.2c67d581e737d3d4b90a251888adc9b1.svg",
+    "static/media/Library.svg": "/Spotify-Clone/static/media/Library.86e804884582f90dfa6db7c999960a8c.svg",
+    "static/media/Back.svg": "/Spotify-Clone/static/media/Back.72556b02f8966571ffd54eba505b3368.svg",
+    "static/media/Next.svg": "/Spotify-Clone/static/media/Next.e91505fc7a2fba126e73e1bd9431d813.svg",
+    "static/media/Plush.svg": "/Spotify-Clone/static/media/Plush.ce7a847404cc9d325f3cb04ec1f36d6e.svg",
+    "static/media/Home.svg": "/Spotify-Clone/static/media/Home.116a3d62bf42505b8c28f63732c9a4a6.svg",
+    "static/media/Down.svg": "/Spotify-Clone/static/media/Down.e0afc185ca71723ca8bee4aaf115ebcc.svg",
+    "main.a5b2656d.css.map": "/Spotify-Clone/static/css/main.a5b2656d.css.map",
+    "main.8de43bd8.js.map": "/Spotify-Clone/static/js/main.8de43bd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5b2656d.css",
+    "static/js/main.8de43bd8.js"
+  ]
+}
