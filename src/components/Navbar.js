@@ -7,7 +7,7 @@ import Library from "./Navbar/LibraryTop";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between h-[64px] px-[32px] items-center">
+    <div className="flex justify-between h-[64px] px-[32px] items-center shrink-0">
       <div className="flex items-center">
         <Navigates />
         <Routes>

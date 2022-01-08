@@ -17,7 +17,7 @@ const Content = () => {
     <div className="flex flex-col w-full">
       <Navbar />
 
-      <div className="bg-red-700 flex-auto ">
+      <div className="bg-backdrop flex-auto overflow-auto ">
         <div>
           <Routes>
             <Route path="/" element={<Home />} />

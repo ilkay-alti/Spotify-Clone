@@ -1,11 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const LastListen = () => {
+const RectangleListenElement = () => {
   return (
     <div>
       <NavLink to={"/library/playlist"}>
-        <div className="bg-[rgb(255,255,255,.3)] rounded-md h-[80px] min-w-[290px] max-w-[365px] ">
+        <div className="bg-[rgb(255,255,255,.1)] hover:bg-[rgb(255,255,255,.3)] rounded-md h-[80px] min-w-[290px] max-w-[365px] ">
           <div className="flex">
             <img
               src="https://i.scdn.co/image/ab67616d0000b2739cddf735c8cd47802cf9eba3 "
@@ -23,4 +23,4 @@ const LastListen = () => {
   );
 };
 
-export default LastListen;
+export default RectangleListenElement;
