@@ -4,6 +4,9 @@ import Down from "../../icon/Down.svg";
 
 const Auth = () => {
   //? Tailwind ui
+
+  console.log(Down);
+
   return (
     <Menu as="nav" className={"relative"}>
       {({ open }) => (

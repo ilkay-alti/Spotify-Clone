@@ -5,7 +5,7 @@ import CardListenItem from "./CardListenItem";
 const CardListen = () => {
   return (
     <>
-      <div className="mb-[16px]">
+      <div className="mb-[64px]">
         <div className=" flex justify-between leading-[36px] tracking-[-.04em] mb-[19px] ">
           <NavLink
             to={"/library/playlist"}
@@ -21,7 +21,7 @@ const CardListen = () => {
             SEE ALL
           </NavLink>
         </div>
-        <div class="grid grid-cols-7 gap-x-2 ">
+        <div class="grid grid-cols-7  asd gap-x-2 ">
           <CardListenItem />
           <CardListenItem />
           <CardListenItem />

@@ -6,7 +6,6 @@ function App() {
     <>
       <div className="flex contain ">
         <Sidebar />
-
         <Content />
       </div>
       <div>

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const CardListenItem = () => {
   return (
     <>
-      <NavLink to={"/library/?id"}>
+      <NavLink to={"/library/1"} className="h-[277px] w-[199px]">
         <div className="bg-[#181818] hover:bg-[#a7a7a71a] rounded-md h-[277px] w-[199px] p-[16px]">
           <div>
             <img

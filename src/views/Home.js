@@ -1,7 +1,7 @@
 import React from "react";
-import CardListen from "../components/content/CardListen";
+import CardListen from "../components/Content/CardListen";
 
-import RectangleListen from "../components/content/RectangleListen";
+import RectangleListen from "../components/Content/RectangleListen";
 
 const Home = () => {
   return (
